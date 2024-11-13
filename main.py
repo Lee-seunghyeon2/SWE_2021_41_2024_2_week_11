@@ -32,7 +32,6 @@ def train_file_list_to_json(english_file_list: List[str], german_file_list: List
     return processed_file_list
 >>>>>>> train_file_list_to_json
 
-<<<<<<< write_file_list
 def write_file_list(file_list: List[str], path: str) -> None:
     """Writes a list of strings to a file, each string on a new line"""
     with open(path, 'w') as f:
@@ -50,4 +49,4 @@ if __name__ == "__main__":
     processed_file_list = train_file_list_to_json(english_file_list, german_file_list)
 
     write_file_list(processed_file_list, path+'concated.json')
-=======    
+
